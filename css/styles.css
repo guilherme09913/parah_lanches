@@ -16,8 +16,8 @@ padding: 70px;
 }
 
 .produto{
-    justify-content: center;
     display: flex;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -31,8 +31,8 @@ padding: 70px;
     transform:scale(1.1);
 }
 .titulo_produto {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 12px;
     font-weight: bold;
@@ -40,18 +40,28 @@ padding: 70px;
 }
 
 .descr_produto {
-    text-align: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     font-size: 10px;
     color:darkgrey;
 
 }
 .btn_somar{
-    justify-content: center;
     display: flex;
-    width: 20px;
-    height: 20px;
-    background-color: chocolate;
+    justify-content: center;
+    
 }
+
+.qtd_prod{
+    display: flex;
+    justify-content: center;
+
+}
+
+    .btn_subtrair{
+    display: flex;
+    justify-content: center;
+    }
+
